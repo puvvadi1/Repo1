@@ -1,10 +1,1 @@
- Volume in drive C has no label.
- Volume Serial Number is 4673-BD06
-
- Directory of C:\Users\gpuvvadi\OneDrive - Cisco\Desktop\myproject
-
-25-02-2022  12.25 PM    <DIR>          .
-25-02-2022  12.25 PM    <DIR>          ..
-25-02-2022  12.25 PM               184 test1.txt
-               1 File(s)            184 bytes
-               2 Dir(s)  174,401,855,488 bytes free
+hello gowthami welcome to git
