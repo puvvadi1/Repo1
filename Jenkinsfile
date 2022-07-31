@@ -13,16 +13,17 @@ pipeline {
             }
         }
         stage('parallel stages') {
-        parallel {
-            stage('parallel1') {
-                steps {
-                    timeout 5
-                    echo 'Welcome to parallel1'
+            parallel {
+                stage('parallel1') {
+                    steps {
+                        timeout 5
+                        echo 'Welcome to parallel1'
+                    }
                 }
-            }
-            stage('parallel2') {
-                steps {
-                    echo 'Welcome to parallel2'
+                stage('parallel2') {
+                    steps {
+                        echo 'Welcome to parallel2'
+                    }
                 }
             }
         }
@@ -32,6 +33,6 @@ pipeline {
             }
         }
     }
-    }
 }
+
 
