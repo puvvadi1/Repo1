@@ -16,7 +16,6 @@ pipeline {
             parallel {
                 stage('parallel1') {
                     steps {
-                        timeout 5
                         echo 'Welcome to parallel1'
                     }
                 }
