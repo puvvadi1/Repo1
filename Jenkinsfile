@@ -12,6 +12,7 @@ pipeline {
                 echo 'Welcome to job1'
             }
         }
+        stage('parallel stages') {
         parallel {
             stage('parallel1') {
                 steps {
@@ -30,6 +31,7 @@ pipeline {
                 echo 'done all the steps'
             }
         }
+    }
     }
 }
 
